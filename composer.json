@@ -1,0 +1,26 @@
+{
+  "name": "ejsoft/ease-composer",
+  "description": "Ease CMS Package Installer",
+  "keywords": [
+    "ease cms",
+    "composer",
+    "package installer"
+  ],
+  "type": "composer-plugin",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "stable",
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ease\\composer\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "ease\\composer\\Plugin",
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
